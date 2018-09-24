@@ -1,0 +1,109 @@
+
+
+/ * GENERAL * \  
+
+
+
+	body{ 
+	font-family: 'Cabin' , sans-serif
+line-height:1.4;
+color:#212121; 
+	}
+
+/ * HEADER * \
+
+
+	header{ 
+
+	padding: 1.5rem 5%;
+	background-color: #bf360c }
+
+
+	.logo h1{
+		font-family: 'BioRhyme', serif;
+		font-size:1.5rem;
+		color:#D7CCC8;
+	}
+
+	menu a{color:#ffb300;
+		text-decoration: none;
+
+	}
+
+	main{ 
+		background-color: #FFECB3;
+		padding:3rem 5%;
+
+	}
+ 
+	main h1{ font-family: 'BioRhyme',Rhyme, serif; 
+	font-size:3rem;}
+
+
+	main h2{
+
+
+
+
+
+	}
+	main h3 {
+
+
+
+
+	}
+	main h4{ 
+
+
+
+
+
+ 	}
+
+ 	main p{
+
+
+
+
+ }
+ 	main li{
+
+
+
+ 	}
+
+
+ 	.ingredients ul{ 
+  margin:0;
+ padding: 0; 
+list-style:none ;
+	}
+
+	.ingredients li{ padding:.5rem 0; 
+border-top: 1px dotted #BDBDBD;
+ 	}
+
+	footer{ background-color:#1e88e5;
+	padding:1.5rem 5%; 
+	
+	}
+.col-right img{ width:65%; }
+
+	footer p{ margin:0;
+color:#e3f2fd; }
+
+	footer a{ text-decoration: none;
+font-family: 'BioRhyme',serif;
+color:#ffff;
+background-color: #FFC107} 
+a:hover {
+  color:#ffb300 ;
+  background-color: #1976D2 ;
+  }
+
+
+
+
+
+
