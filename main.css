@@ -1,43 +1,38 @@
 
-
-/ * GENERAL * \  
-
-
-
-	body{ 
+/* GENERAL */ 
+body{ 
 	font-family: 'Cabin' , sans-serif
-line-height:1.4;
-color:#212121; 
-	}
-
-/ * HEADER * \
-
-
-	header{ 
-
-	padding: 1.5rem 5%;
-	background-color: #bf360c }
+	line-height:1.0rem;
+	color:#ffff; 
+}
 
 
 	.logo h1{
 		font-family: 'BioRhyme', serif;
 		font-size:1.5rem;
-		color:#D7CCC8;
-	}
+		color:#ffff;
+}
 
-	menu a{color:#ffb300;
-		text-decoration: none;
+	menu a {
+	color:#ffff;
+	text-decoration: none;
 
-	}
+}
 
 	main{ 
-		background-color: #FFECB3;
-		padding:3rem 5%;
+		background-color:#1a237e;
+		padding:2rem 5%;	
 
-	}
- 
-	main h1{ font-family: 'BioRhyme',Rhyme, serif; 
-	font-size:3rem;}
+}
+ 	main{ 
+ 		overflow: hidden;
+}
+	main h1{ 
+	font-family: 'BioRhyme',Rhyme, serif; 
+	font-size:2rem;
+	margin-right:10%;
+	color:#ffff;
+}
 
 
 	main h2{
@@ -46,64 +41,130 @@ color:#212121;
 
 
 
-	}
+}
 	main h3 {
 
 
 
 
-	}
+}
 	main h4{ 
 
 
 
 
 
- 	}
+}
 
  	main p{
 
 
 
 
- }
+}
  	main li{
 
 
 
- 	}
-
+}
+	main img{ height:400px;
+	width: 400px;
+	margin-left:3rem; 
+}
 
  	.ingredients ul{ 
-  margin:0;
- padding: 0; 
-list-style:none ;
-	}
+  	margin:5%;
+ 	padding: 5%; 
+	list-style:none ;
+}
 
 	.ingredients li{ padding:.5rem 0; 
-border-top: 1px dotted #BDBDBD;
- 	}
+		border-top: 1px dotted #BDBDBD;
+}
 
-	footer{ background-color:#1e88e5;
+	footer{ background-color:#ffff;
 	padding:1.5rem 5%; 
 	
-	}
-.col-right img{ width:65%; }
+}
+	.col-right img{ width:65%; }
 
-	footer p{ margin:0;
-color:#e3f2fd; }
+	footer p{ margin:0%;
+	color:#1a237e; 	
+}
 
 	footer a{ text-decoration: none;
-font-family: 'BioRhyme',serif;
-color:#ffff;
-background-color: #FFC107} 
-a:hover {
-  color:#ffb300 ;
-  background-color: #1976D2 ;
-  }
+	font-family: 'BioRhyme',serif;
+	color:#ffff;
+	background-color: #fdd835}
+	a:hover {
+  	color:#1a237e ;
+  	background-color: #ffff ;
+
+ }
+ 	/* HEADER*/ 
+
+ 	header{ 
+	padding: .5rem 15%;
+	background-color:#fdd835; 
+
+}
+ 	header a{ 
+ 	color:#1a237e; 
+}
+ 	header{ 
+ 	overflow: hidden;
+}
+ 	@media screen and (min-width: 40em){
+	.logo {
+ 	width:65%;
+	 	 float: left;
+}
+	.menu {
+	 width: 65%;
+	 float: right;
+
+}
+}
+	/* columns */ 
+
+  	.col-left {
+	width: 45%;
+	 float: left;
+	}
+	@media screen and (min-width: 30em){
+	.col-left {
+ 	width: 30%;
+	float: left;
+}
+}
+	@media screen and (min-width: 30em){
+	.col-right {
+ 	width: 75%;
+	float: right;
+}
+}
+
+	/*ingridents*/ 
+
+	@media screen and (min-width: 40em){
+	.ingredient {
+ 	width: 65%;
+	float: right;
+ 	margin-right: 0%;
+}
+}
+	.ingredients {
+	 overflow: hidden;
+}
 
 
-
-
-
-
+	@media screen and (min-width: 40em){
+	.logo {
+	 width: 45%;
+	 float: left;
+}
+	.menu {
+ 	width: 95%;
+	float: right;
+}
+}
